@@ -1,0 +1,17 @@
+.palette-column {
+    color: yellowgreen
+}
+
+.palette, .script, .block{ border: 1px inset #021429; border-radius: 7px; }
+
+.palette-column{ width: 24%; height: 85%; float: left; margin-left: 10px; }
+
+.script-column {width: 30%; height: 85%; float: left; margin: 0 10px; }
+
+.script {background-color: lightsteelblue; height: 30em; overflow-y: auto; }
+
+.block { padding: 5px; margin: 10px; cursor: move; }
+
+.block .dragging { background: lightyellow}
+
+.block input { width: 5em; margin-left: 1em; margin-bottom: 5px}
